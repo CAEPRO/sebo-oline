@@ -1,15 +1,14 @@
 // ============================================
 // BANCO DE DADOS DE LIVROS
 // ============================================
-const books = [
-{
+const books = [{
     id: '1',
     title: 'Empreendedorismo na Prática - Mitos e Verdades do Empreendedor de Sucesso',
     author: 'José Dornelas',
     category: 'Empreendedorismo',
     price: 10,
     originalPrice: 113,
-    discount: 91.1504424778761,
+    discount: 91,
     condition: 'Usado',
     conditionDetail: 'Bom estado, algumas anotações à lápis e marca texto.',
     pages: 180,
@@ -21,7 +20,7 @@ const books = [
     sold: true,
     whatsapp: '5599988560842', // Adicionado para manter consistência com o modelo, mas vazio
     images: ['images/id-1.jpg']
-  },
+},
 {
     id: '2',
     title: 'O Pequeno Livro Azul da Programação da Produção',
@@ -29,7 +28,7 @@ const books = [
     category: 'Planejamento e Controle da Produção (PCP)',
     price: 10,
     originalPrice: 109.9,
-    discount: 90.9008189262966,
+    discount: 90,
     condition: 'Usado',
     conditionDetail: 'Bom estado, algumas anotações à lápis e marca texto.',
     pages: 127,
@@ -41,7 +40,7 @@ const books = [
     sold: false,
     whatsapp: '5599988560842', // Adicionado para manter consistência com o modelo, mas vazio
     images: ['images/id-2.jpg']
-  },
+},
 {
     id: '3',
     title: 'Projeto e Desenvolvimento de Produtos',
@@ -49,7 +48,7 @@ const books = [
     category: 'Desenvolvimento de Produtos',
     price: 10,
     originalPrice: 89.9,
-    discount: 88.8765294771969,
+    discount: 88,
     condition: 'Usado',
     conditionDetail: 'Bom estado, algumas anotações à lápis e marca texto.',
     pages: 181,
@@ -61,7 +60,7 @@ const books = [
     sold: false,
     whatsapp: '5599988560842', // Adicionado para manter consistência com o modelo, mas vazio
     images: ['images/id-3.jpg']
-  },
+},
 {
     id: '4',
     title: 'Plano de negócios com o modelo canvas: guia prático de avaliação de ideias de negócio a partir de exemplos',
@@ -69,7 +68,7 @@ const books = [
     category: 'Empreendedorismo',
     price: 10,
     originalPrice: 65,
-    discount: 84.6153846153846,
+    discount: 84,
     condition: 'Usado',
     conditionDetail: 'Bom estado, algumas anotações à lápis e marca texto.',
     pages: 240,
@@ -81,7 +80,7 @@ const books = [
     sold: false,
     whatsapp: '5599988560842', // Adicionado para manter consistência com o modelo, mas vazio
     images: ['images/id-4.jpg']
-  },
+},
 {
     id: '5',
     title: 'Usando o MS Project 2007 em Gerenciamento de Projetos',
@@ -89,7 +88,7 @@ const books = [
     category: 'Gerenciamento de Projetos',
     price: 10,
     originalPrice: 62,
-    discount: 83.8709677419355,
+    discount: 83,
     condition: 'Usado',
     conditionDetail: 'Bom estado, algumas anotações à lápis e marca texto.',
     pages: 312,
@@ -101,7 +100,7 @@ const books = [
     sold: false,
     whatsapp: '5599988560842', // Adicionado para manter consistência com o modelo, mas vazio
     images: ['images/id-5.jpg']
-  },
+},
 {
     id: '6',
     title: 'Muito Além da Vantagem Competitiva',
@@ -109,7 +108,7 @@ const books = [
     category: 'Negócios e Gestão',
     price: 15,
     originalPrice: 85,
-    discount: 82.3529411764706,
+    discount: 82,
     condition: 'Usado',
     conditionDetail: 'Bom estado, algumas anotações à lápis e marca texto.',
     pages: 192,
@@ -121,7 +120,7 @@ const books = [
     sold: false,
     whatsapp: '5599988560842', // Adicionado para manter consistência com o modelo, mas vazio
     images: ['images/id-6.jpg']
-  },
+},
 {
     id: '7',
     title: 'Criando Organizações Eficazes: Estruturas Em Cinco Configurações',
@@ -129,7 +128,7 @@ const books = [
     category: 'Negócios e Gestão',
     price: 15,
     originalPrice: 76.35,
-    discount: 80.3536345776031,
+    discount: 80,
     condition: 'Usado',
     conditionDetail: 'Bom estado, algumas anotações à lápis e marca texto.',
     pages: 336,
@@ -141,7 +140,7 @@ const books = [
     sold: true,
     whatsapp: '5599988560842', // Adicionado para manter consistência com o modelo, mas vazio
     images: ['images/id-7.jpg']
-  },
+},
 {
     id: '8',
     title: 'TQC. Controle da Qualidade Total no Estilo Japonês',
@@ -149,7 +148,7 @@ const books = [
     category: 'Gestão da Qualidade',
     price: 15,
     originalPrice: 66.75,
-    discount: 77.5280898876404,
+    discount: 77,
     condition: 'Usado',
     conditionDetail: 'Bom estado, algumas anotações à lápis e marca texto.',
     pages: 256,
@@ -161,7 +160,7 @@ const books = [
     sold: true,
     whatsapp: '5599988560842', // Adicionado para manter consistência com o modelo, mas vazio
     images: ['images/id-8.jpg']
-  },
+},
 {
     id: '9',
     title: 'Administração De Produção E De Operações: Manufatura E Serviços - Ed. Compacta: Manufatura e Serviços: uma Abordagem Estratégica',
@@ -169,7 +168,7 @@ const books = [
     category: 'Gestão da Produção',
     price: 15,
     originalPrice: 117,
-    discount: 87.1794871794872,
+    discount: 87,
     condition: 'Usado',
     conditionDetail: 'Bom estado, algumas anotações à lápis e marca texto.',
     pages: 520,
@@ -181,7 +180,7 @@ const books = [
     sold: true,
     whatsapp: '5599988560842', // Adicionado para manter consistência com o modelo, mas vazio
     images: ['images/id-9.jpg']
-  },
+},
 {
     id: '10',
     title: 'Usando O Arena Em Simulação',
@@ -189,7 +188,7 @@ const books = [
     category: 'Simulação',
     price: 15,
     originalPrice: 55,
-    discount: 72.7272727272727,
+    discount: 72,
     condition: 'Usado',
     conditionDetail: 'Bom estado, algumas anotações à lápis e marca texto.',
     pages: 307,
@@ -201,7 +200,7 @@ const books = [
     sold: false,
     whatsapp: '5599988560842', // Adicionado para manter consistência com o modelo, mas vazio
     images: ['images/id-10.jpg']
-  },
+},
 {
     id: '11',
     title: 'Resíduos sólidos: problema ou oportunidade?',
@@ -209,7 +208,7 @@ const books = [
     category: 'Engenharia Ambiental',
     price: 20,
     originalPrice: 86,
-    discount: 76.7441860465116,
+    discount: 76,
     condition: 'Usado',
     conditionDetail: 'Bom estado, algumas anotações à lápis e marca texto.',
     pages: 135,
@@ -221,7 +220,7 @@ const books = [
     sold: false,
     whatsapp: '5599988560842', // Adicionado para manter consistência com o modelo, mas vazio
     images: ['images/id-11.jpg']
-  },
+},
 {
     id: '12',
     title: 'Logística reversa e sustentabilidade',
@@ -229,7 +228,7 @@ const books = [
     category: 'Logística',
     price: 20,
     originalPrice: 108,
-    discount: 81.4814814814815,
+    discount: 81,
     condition: 'Usado',
     conditionDetail: 'Bom estado, algumas anotações à lápis e marca texto.',
     pages: 208,
@@ -241,7 +240,7 @@ const books = [
     sold: true,
     whatsapp: '5599988560842', // Adicionado para manter consistência com o modelo, mas vazio
     images: ['images/id-12.jpg']
-  },
+},
 {
     id: '13',
     title: 'Introdução à Engenharia Ambiental: O Desafio do Desenvolvimento Sustentável',
@@ -249,7 +248,7 @@ const books = [
     category: 'Engenharia Ambiental',
     price: 20,
     originalPrice: 261.79,
-    discount: 92.3602887810841,
+    discount: 92,
     condition: 'Usado',
     conditionDetail: 'Bom estado, algumas anotações à lápis e marca texto.',
     pages: 318,
@@ -261,7 +260,7 @@ const books = [
     sold: false,
     whatsapp: '5599988560842', // Adicionado para manter consistência com o modelo, mas vazio
     images: ['images/id-13.jpg']
-  },
+},
 {
     id: '14',
     title: 'Empreendedorismo: Vocação, Capacitação E Atuação Direcionadas Para O Plano De Negócios',
@@ -269,7 +268,7 @@ const books = [
     category: 'Empreendedorismo',
     price: 20,
     originalPrice: 220,
-    discount: 90.9090909090909,
+    discount: 90,
     condition: 'Usado',
     conditionDetail: 'Bom estado, algumas anotações à lápis e marca texto.',
     pages: 376,
@@ -281,7 +280,7 @@ const books = [
     sold: true,
     whatsapp: '5599988560842', // Adicionado para manter consistência com o modelo, mas vazio
     images: ['images/id-14.jpg']
-  },
+},
 {
     id: '15',
     title: 'Pesquisa Operacional: Técnicas De Otimização Aplicadas A Sistemas Agroindustriais',
@@ -289,7 +288,7 @@ const books = [
     category: 'Pesquisa Operacional',
     price: 20,
     originalPrice: 59,
-    discount: 66.1016949152542,
+    discount: 66,
     condition: 'Usado',
     conditionDetail: 'Bom estado, algumas anotações à lápis e marca texto.',
     pages: 176,
@@ -301,7 +300,7 @@ const books = [
     sold: false,
     whatsapp: '5599988560842', // Adicionado para manter consistência com o modelo, mas vazio
     images: ['images/id-15.jpg']
-  },
+},
 {
     id: '16',
     title: 'Pesquisa operacional para os cursos de administração e engenharia: Programação linear e simulação',
@@ -321,7 +320,7 @@ const books = [
     sold: false,
     whatsapp: '5599988560842', // Adicionado para manter consistência com o modelo, mas vazio
     images: ['images/id-16.jpg']
-  },
+},
 {
     id: '17',
     title: 'Cálculo Numérico',
@@ -341,7 +340,7 @@ const books = [
     sold: false,
     whatsapp: '5599988560842', // Adicionado para manter consistência com o modelo, mas vazio
     images: ['images/id-17.jpg']
-  },
+},
 {
     id: '18',
     title: 'The Official Guide to the TOEFL Test With CD-ROM, 4th Edition',
@@ -361,7 +360,7 @@ const books = [
     sold: true,
     whatsapp: '5599988560842', // Adicionado para manter consistência com o modelo, mas vazio
     images: ['images/id-18.jpg']
-  },
+},
 {
     id: '19',
     title: 'Gestão de Operações. A Engenharia de Produção a Serviço da Modernização da Empresa',
@@ -381,7 +380,7 @@ const books = [
     sold: true,
     whatsapp: '5599988560842', // Adicionado para manter consistência com o modelo, mas vazio
     images: ['images/id-19.jpg']
-  },
+},
 {
     id: '20',
     title: 'Organização, o Planejamento e o Controle da Manutenção',
@@ -401,7 +400,7 @@ const books = [
     sold: false,
     whatsapp: '5599988560842', // Adicionado para manter consistência com o modelo, mas vazio
     images: ['images/id-20.jpg']
-  },
+},
 {
     id: '21',
     title: 'Ergonomia: Projeto e Produção',
@@ -421,7 +420,7 @@ const books = [
     sold: false,
     whatsapp: '5599988560842', // Adicionado para manter consistência com o modelo, mas vazio
     images: ['images/id-21.jpg']
-  },
+},
 {
     id: '22',
     title: 'Official TOEFL iBT® Tests Volume 1, 2nd Edition: Vol. 1',
@@ -441,7 +440,7 @@ const books = [
     sold: false,
     whatsapp: '5599988560842', // Adicionado para manter consistência com o modelo, mas vazio
     images: ['images/id-22.jpg']
-  },
+},
 {
     id: '23',
     title: 'Otimização Combinatória e Programação Linear',
@@ -461,7 +460,7 @@ const books = [
     sold: true,
     whatsapp: '5599988560842', // Adicionado para manter consistência com o modelo, mas vazio
     images: ['images/id-23.jpg']
-  },
+},
 {
     id: '24',
     title: 'Manufatura Enxuta Como Estratégia De Produção: A Chave Para A Produtividade Industrial',
@@ -481,7 +480,7 @@ const books = [
     sold: true,
     whatsapp: '5599988560842', // Adicionado para manter consistência com o modelo, mas vazio
     images: ['images/id-24.jpg']
-  },
+},
 {
     id: '25',
     title: 'METHODS OF MULTIVARIATE ANALYSIS',
@@ -501,7 +500,7 @@ const books = [
     sold: true,
     whatsapp: '5599988560842', // Adicionado para manter consistência com o modelo, mas vazio
     images: ['images/id-25.jpg']
-  },
+},
 {
     id: '26',
     title: 'Introdução a Modelagem e Simulação de Sistemas com Aplicações em Arena',
@@ -521,7 +520,7 @@ const books = [
     sold: false,
     whatsapp: '5599988560842', // Adicionado para manter consistência com o modelo, mas vazio
     images: ['images/id-26.jpg']
-  },
+},
 {
     id: '27',
     title: 'Descobrindo a Estatística Usando o SPSS',
@@ -541,7 +540,7 @@ const books = [
     sold: true,
     whatsapp: '5599988560842', // Adicionado para manter consistência com o modelo, mas vazio
     images: ['images/id-27.jpg']
-  },
+},
 {
     id: '28',
     title: 'Cálculo - Vol. 2',
@@ -561,7 +560,7 @@ const books = [
     sold: false,
     whatsapp: '5599988560842', // Adicionado para manter consistência com o modelo, mas vazio
     images: ['images/id-28.jpg']
-  },
+},
 {
     id: '29',
     title: 'Um Curso de Cálculo - Vol. 3: Volume 3',
@@ -581,7 +580,7 @@ const books = [
     sold: false,
     whatsapp: '5599988560842', // Adicionado para manter consistência com o modelo, mas vazio
     images: ['images/id-29.jpg']
-  },
+},
 {
     id: '30',
     title: 'Um Curso de Cálculo - Vol. 2: Volume 2',
@@ -601,7 +600,7 @@ const books = [
     sold: false,
     whatsapp: '5599988560842', // Adicionado para manter consistência com o modelo, mas vazio
     images: ['images/id-30.jpg']
-  },
+},
 {
     id: '31',
     title: 'Mecânica dos Fluidos',
@@ -621,7 +620,7 @@ const books = [
     sold: false,
     whatsapp: '5599988560842', // Adicionado para manter consistência com o modelo, mas vazio
     images: ['images/id-31.jpg']
-  },
+},
 {
     id: '32',
     title: 'Planejamento, Programação E Controle Da Produção MRP II/ERP: Conceitos, Uso E Implantação: MRP II/ERP - Conceitos, uso e Implantação, Base Para SAP, ... e Outros Softwares Integrados de Gestão',
@@ -641,7 +640,7 @@ const books = [
     sold: false,
     whatsapp: '5599988560842', // Adicionado para manter consistência com o modelo, mas vazio
     images: ['images/id-32.jpg']
-  },
+},
 {
     id: '33',
     title: 'Geração de Valor',
@@ -661,7 +660,7 @@ const books = [
     sold: false,
     whatsapp: '5599988560842', // Adicionado para manter consistência com o modelo, mas vazio
     images: ['images/id-33.jpg']
-  },
+},
 {
     id: '34',
     title: 'Logística Ambiental de Resíduos Sólidos',
@@ -681,7 +680,7 @@ const books = [
     sold: false,
     whatsapp: '5599988560842', // Adicionado para manter consistência com o modelo, mas vazio
     images: ['images/id-34.jpg']
-  },
+},
 {
     id: '35',
     title: 'Industrial Maintenance',
@@ -701,7 +700,7 @@ const books = [
     sold: false,
     whatsapp: '5599988560842', // Adicionado para manter consistência com o modelo, mas vazio
     images: ['images/id-35.jpg']
-  },
+},
 {
     id: '36',
     title: 'Curso de Estatística',
@@ -721,7 +720,7 @@ const books = [
     sold: false,
     whatsapp: '5599988560842', // Adicionado para manter consistência com o modelo, mas vazio
     images: ['images/id-36.jpg']
-  },
+},
 {
     id: '37',
     title: 'Algoritmos Programação para Iniciantes',
@@ -741,7 +740,7 @@ const books = [
     sold: false,
     whatsapp: '5599988560842', // Adicionado para manter consistência com o modelo, mas vazio
     images: ['images/id-37.jpg']
-  },
+},
 {
     id: '38',
     title: 'Roadmapping: uma abordagem estratégica para o gerenciamento da inovação em produtos, serviços e tecnologias',
@@ -761,7 +760,7 @@ const books = [
     sold: false,
     whatsapp: '5599988560842', // Adicionado para manter consistência com o modelo, mas vazio
     images: ['images/id-38.jpg']
-  },
+},
 {
     id: '39',
     title: 'Estatística usando Excel',
@@ -781,7 +780,7 @@ const books = [
     sold: false,
     whatsapp: '5599988560842', // Adicionado para manter consistência com o modelo, mas vazio
     images: ['images/id-39.jpg']
-  },
+},
 {
     id: '40',
     title: 'Física - volume 3',
@@ -801,7 +800,7 @@ const books = [
     sold: false,
     whatsapp: '5599988560842', // Adicionado para manter consistência com o modelo, mas vazio
     images: ['images/id-40.jpg']
-  },
+},
 {
     id: '41',
     title: 'Confiabilidade e Manutenção Industrial',
@@ -821,7 +820,7 @@ const books = [
     sold: false,
     whatsapp: '5599988560842', // Adicionado para manter consistência com o modelo, mas vazio
     images: ['images/id-41.jpg']
-  },
+},
 {
     id: '42',
     title: 'Economia, Teoria e Política',
@@ -841,7 +840,7 @@ const books = [
     sold: false,
     whatsapp: '5599988560842', // Adicionado para manter consistência com o modelo, mas vazio
     images: ['images/id-42.jpg']
-  },
+},
 {
     id: '43',
     title: 'Cálculo A: Funções, Limite, Derivação e Integração',
@@ -861,8 +860,7 @@ const books = [
     sold: false,
     whatsapp: '5599988560842', // Adicionado para manter consistência com o modelo, mas vazio
     images: ['images/id-43.jpg']
-  },
-
+},
 ];
 
 // ============================================
@@ -870,7 +868,7 @@ const books = [
 // ============================================
 let currentCategory = 'all';
 let currentPage = 1;
-const ITEMS_PER_PAGE = 12;
+const ITEMS_PER_PAGE = 8;
 
 // ============================================
 // FUNÇÕES AUXILIARES
