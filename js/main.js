@@ -38,7 +38,7 @@ const books = [
     year: 2009,
     location: 'Vitória',
     description: 'O Pequeno Livro Azul da Programação da Produção, de Mike Liddell, é um guia prático que ensina a otimizar o PCP industrial por meio de dicas eficazes e ferramentas avançadas. A obra foca na simplificação de processos para gerar resultados financeiros rápidos, destacando a necessidade de combinar profissionais qualificados com sistemas de programação. O livro utiliza a metáfora de uma orquestra para explicar como o planejamento correto evita o caos operacional. [1, 2]',
-    sold: false,
+    sold: true,
     whatsapp: '5599988560842', // Adicionado para manter consistência com o modelo, mas vazio
     images: ['images/id-2.jpg']
   },
@@ -58,7 +58,7 @@ const books = [
     year: 2009,
     location: 'São Paulo',
     description: 'A obra Projeto e Desenvolvimento de Produtos, escrita por Antonio Nunes Barbosa Filho, apresenta o processo de criação industrial como a transformação de sonhos e necessidades humanas em realidade material viável. Com base em sua experiência acadêmica e profissional, o autor analisa os principais desafios enfrentados por designers e engenheiros no mercado contemporâneo, discutindo o impacto direto das decisões de projeto no consumo de recursos naturais, na geração de resíduos industriais e no descarte final dos objetos. O texto investiga estratégias para acelerar as etapas de desenvolvimento de novos itens com alta confiabilidade técnica, sem inflacionar o orçamento com protótipos de custo proibitivo, além de avaliar a importância da embalagem na logística de distribuição e as causas frequentes do fracasso comercial de mercadorias por inadequação ao usuário, desconforto ergonômico ou dificuldade de manutenção. Desenvolvida em linguagem simples, direta e reflexiva, a publicação funciona como um guia prático voltado para a viabilização de soluções eficientes em engenharia de produção, desenho industrial e administração de novos negócios.',
-    sold: false,
+    sold: true,
     whatsapp: '5599988560842', // Adicionado para manter consistência com o modelo, mas vazio
     images: ['images/id-3.jpg']
   },
@@ -78,7 +78,7 @@ const books = [
     year: 2015,
     location: 'Rio de Janeiro',
     description: 'Desmistificando a crença muito difundida de que o modelo Canvas e o plano de negócios são metodologias que se substituem uma pela outra, Plano de Negócios com o Modelo Canvas: Guia Prático de Avaliação de Ideias de Negócio a Partir de Exemplos parte de ideias conhecidas para propor algo revolucionário: a integração desses dois modelos clássicos de desenvolvimento de uma ideia empreendedora.A partir de perguntas-chave, o leitor poderá facilmente examinar o projeto que deseja empreender, aferir suas reais possibilidades, calibrar os aspectos necessários à sua viabilidade e basear-se em exemplos reais para ir em frente na construção e realização de sua ideia. Com comentários e problematizações baseados nas respostas possíveis às perguntas-chave, Plano de Negócios com o Modelo Canvas: Guia Prático de Avaliação de Ideias de Negócio a Partir de Exemplos também contempla as imperfeições e os percalços enfrentados pelo leitor, consolidando-se, assim, como um guia realista e verdadeiramente útil para todos os perfis de empreendedor. Aplicação:Livro-texto para as disciplinas Empreendedorismo e Plano de Negócios para os cursos de Administração, MBAs, Engenharias, Economia e Direito. Livro que atende ao público profissional, a empreendedores e executivos.',
-    sold: false,
+    sold: true,
     whatsapp: '5599988560842', // Adicionado para manter consistência com o modelo, mas vazio
     images: ['images/id-4.jpg']
   },
@@ -118,7 +118,7 @@ const books = [
     year: 2018,
     location: 'São Paulo',
     description: 'Sua empresa tem gerado lucro e cresce todo ano. Seus concorrentes não conseguem alcançá-lo.',
-    sold: false,
+    sold: true,
     whatsapp: '5599988560842', // Adicionado para manter consistência com o modelo, mas vazio
     images: ['images/id-6.jpg']
   },
@@ -318,7 +318,7 @@ const books = [
     year: 2010,
     location: 'São Paulo',
     description: 'Além de ser um livro-texto ajustado às necessidades de ensino, auxilia o professor a direcionar o estudo da disciplina, liberando-o de transcrever a matéria no quadro, pois essa atividade é uma fonte de propagação de erros e pouco traz de retorno ao aluno em termos de entendimento e fixação de conhecimentos. A Programação Linear e a Simulação são enfocadas. A Programação Linear tem o mérito de envolver conhecimentos matemáticos relativamente simples e de larga aplicação no campo da administração. Além disso, sua técnica resolutiva é programável em computador, havendo no mercado softwares específi cos para isso. A Simulação é o modelo mais geral em Pesquisa Operacional. Seu estudo estimula o conhecimento do sistema envolvido e da metodologia da Pesquisa Operacional. Sua técnica resolutiva envolve conhecimentos simples de Estatística Básica no nível apresentado, sendo também facilmente programável em computador. Algumas planilhas (Lotus e Excel, por exemplo) são de grande auxílio e podem ser facilmente encontradas. Livro-texto para a disciplina Pesquisa Operacional dos cursos de Administração de Empresas e Engenharia de Produção.',
-    sold: false,
+    sold: true,
     whatsapp: '5599988560842', // Adicionado para manter consistência com o modelo, mas vazio
     images: ['images/id-16.jpg']
   },
@@ -738,7 +738,7 @@ const books = [
     year: 2004,
     location: 'Rio de Janeiro',
     description: 'Este livro tem por objetivo apresentar os fundamentos da lógica para a programação de computadores, capacitando o leitor a construir algoritmos estruturados. Os diversos assuntos e exercícios são totalmente baseados em experiências reais do autor vivenciadas em sala de aula, transferindo para o livro as explicações e os exemplos usados em aulas de algoritmos e programação. A leitura e a prática não exigem conhecimento prévio do assunto por parte do leitor. Voltado para estudantes de cursos introdutórios em programação de computadores, existentes nas áreas de Informática, Ciência da Computação, Engenharias, cursos técnicos de nível médio e muitas outras, o livro apresenta como principais características: o Nova linguagem estruturada para a construção de algoritmos; o Texto renovado e atual, fortemente baseado na didática utilizada em aulas de programação; o Intensa carga de exercícios resolvidos e de problemas propostos; o Perguntas e respostas sobre as dúvidas mais comuns dos estudantes de cursos de programação; o Curiosidades sobre computadores, algoritmos e programação, estimulando o interesse do leitor pelo assunto. Adotado com sucesso como bibliografia nos projetos de inúmeros cursos espalhados pelo Brasil, Algoritmos: Programação para Iniciantes chega à sua 2ª edição com nova diagramação, apresentando um texto aprimorado, revisado e complementado com mais material de estudo. Acima de tudo, ele pretende ser o seu primeiro livro de algoritmos.',
-    sold: false,
+    sold: true,
     whatsapp: '5599988560842', // Adicionado para manter consistência com o modelo, mas vazio
     images: ['images/id-37.jpg']
   },
