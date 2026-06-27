@@ -198,7 +198,7 @@ const books = [
     year: 2010,
     location: 'Belo Horizonte',
     description: 'Simulação é uma técnica que permite imitar o funcionamento de um sistema real em um computador. Pode-se ver, na tela do computador, o funcionamento de uma linha de produção, o tráfego nas ruas de uma cidade ou o funcionamento de uma agência bancária.',
-    sold: false,
+    sold: true,
     whatsapp: '5599988560842', // Adicionado para manter consistência com o modelo, mas vazio
     images: ['images/id-10.jpg']
   },
@@ -718,7 +718,7 @@ const books = [
     year: 2010,
     location: 'São Paulo',
     description: 'Este texto reúne matéria essencial para cursos universitários de Estatística, centrando-se no estudo das probabilidades, inferência e estatística não-paramétrica. Fruto de experiências vivenciadas na condução de cursos de Estatística para o 3º grau nas áreas de exatas e humanas, o livro traz farta exemplificação de aplicações do cálculo das probabilidades, modelos de distribuições de probabilidades, inferência estatística, técnicas não paramétricas e análise da variância.  Esta nova versão, após 15 anos de sua primeira edição, tem características eminentemente didáticas: detalhada exposição, solução de exemplos e proposição de exercícios cujas respostas se encontram no final do livro. Os quatro primeiros capítulos são dedicados ao estudo do cálculo das probabilidades. O capítulo 5 expõe, detalhadamente, a estatística descritiva. Os capítulos 6, 7, 8 e 9 apresentam as distribuições amostrais; amostragem, intervalos de confiança e teste de hipóteses. As técnicas não paramétricas são destacadas no capítulo 10 e a análise da variância constitui o último capitulo.  Livro-texto para a disciplina Estatística dos cursos de graduação em Administração de Empresas, Economia, Contabilidade, Matemática e Engenharia. ',
-    sold: false,
+    sold: true,
     whatsapp: '5599988560842', // Adicionado para manter consistência com o modelo, mas vazio
     images: ['images/id-36.jpg']
   },
@@ -778,7 +778,7 @@ const books = [
     year: 2005,
     location: 'Rio de Janeiro',
     description: 'Nesta quarta edição de Estatística Usando Excel, boa parte dos temas da edição anterior foi reescrita e aumentada melhorando a seqüência e compreensão dos temas. Novos temas foram adicionados ampliando os conceitos estatísticos como, por exemplo, a tabela de probabilidades conjuntas e totais, os cálculos inversos com a distribuição normal, o poder do teste de hipóteses, a análise de variância com dois fatores, a regressão linear múltipla, a projeção por ajuste de polinômio, taxa média e reta de regressão, a construção de um ou mais boxplot com os recursos próprios do Excel, e outros temas.',
-    sold: false,
+    sold: true,
     whatsapp: '5599988560842', // Adicionado para manter consistência com o modelo, mas vazio
     images: ['images/id-39.jpg']
   },
@@ -818,7 +818,7 @@ const books = [
     year: 2009,
     location: 'Rio de Janeiro',
     description: 'O  presente livro trata da Engenharia de Confiabilidade que tem como objetivo adequar a produção da indústria aos padrões dos mercados e a normas de qualidade, fornecendo o referencial teórico para esse processo de melhoria. O diferencial de Confiabilidade e Manutenção Industrial é tratar a confiabilidade do ponto de vista quantitativo, baseado na modelagem estatística de dados, e não qualitativo como os outros livros sobre o tema. Principais características: • Livro com selo ABEPRO; • Listas de exercícios ao final da maioria dos capítulos • Traz aplicativos computacionais, apresentados através de tutoriais; • Conteúdo sobre gestão da manutenção em ambientes industriais.',
-    sold: false,
+    sold: true,
     whatsapp: '5599988560842', // Adicionado para manter consistência com o modelo, mas vazio
     images: ['images/id-41.jpg']
   },
