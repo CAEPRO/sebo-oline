@@ -862,6 +862,26 @@ const books = [
     whatsapp: '5599988560842', // Adicionado para manter consistência com o modelo, mas vazio
     images: ['images/id-43.jpg']
   },
+{
+    id: 44,
+    title: 'Administração da Produção',
+    author: 'Nigel Slack et al.',
+    category: 'Gestão da Produção',
+    price: 30,
+    originalPrice: 277,
+    discount: 89,
+    condition: 'Usado',
+    conditionDetail: 'Bom estado, algumas anotações à lápis e marca texto.',
+    pages: 528,
+    size: '23.8 x 17 x 2.2 cm',
+    publisher: 'Atlas',
+    year: 2010,
+    location: 'São Paulo',
+    description: 'Esta edição compacta do já clássico Administração da Produção de Nigel Slack e sua equipe da Warwick University, traz os aspectos essenciais da área de gestão de operações, incluindo o tratamento equilibrado tanto de operações de manufatura como de operações de serviços. Trata-se de uma excelente alternativa para quem necessita aprender ou reciclar-se nos aspectos essenciais da área sem, entretanto, aprofundar-se detalhadamente em técnicas específicas. Não se deve, porém, ter a impressão de que esta edição compacta tenha perdido, com isso, rigor e conteúdo. O resultado da compactação foi um livro mais denso e com uma visão mais gerencial que a versão integral. Mantém a clareza das exposições de temas tratados, a riqueza dos exemplos e casos reais, assim como notável abrangência e atualidade, tanto dos assuntos como da abordagem, que continua estratégica em essência. O texto tem, como poucos, o potencial de captar o interesse do leitor para administração da produção, essa importante área da administração de negócios.',
+    sold: true,
+    whatsapp: '5599988560842', // Adicionado para manter consistência com o modelo, mas vazio
+    images: ['images/id-44.jpg']
+  },
 ];
 
 const categoryConfig = {
