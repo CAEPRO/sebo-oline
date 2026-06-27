@@ -638,7 +638,7 @@ const books = [
     year: 2012,
     location: 'São Paulo',
     description: 'Os sistemas integrados de gestão do empreendimento MRP II/ERP são hoje os mais largamente utilizados pelas empresas ao redor do mundo para o suporte integrado à tomada de decisão. A adoção de aplicativos de software que se utilizam da lógica MRP II/ERP, como o SAP, o BAAN4, o ORACLE ou várias dezenas de outros comercialmente disponíveis, está hoje no topo da lista de prioridades de grande parte dos gestores dos processos empresariais modernos. Entretanto, se a compra de um aplicativo de software robusto é condição necessária para o sucesso no uso do MRP II/ERP, está longe de ser condição suficiente. Antes de tudo, as empresas devem compreender perfeitamente os seus conceitos para uma implantação de sucesso. Este livro traz de forma simples e clara os conceitos essenciais para que os gestores gerenciem e participem de processos de implantação e gestão de sistemas MRP II/ERP.',
-    sold: false,
+    sold: true,
     whatsapp: '5599988560842', // Adicionado para manter consistência com o modelo, mas vazio
     images: ['images/id-32.jpg']
   },
