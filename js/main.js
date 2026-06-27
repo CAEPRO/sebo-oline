@@ -298,7 +298,7 @@ const books = [
     year: 2015,
     location: 'São Paulo',
     description: 'Este livro, originado com base em projeto de pesquisa apoiado pelo CNPq (Conselho Nacional de Desenvolvimento Científico e Tecnológico), objetiva familiarizar o estudante a identificar os problemas aos quais técnicas de otimização podem ser aplicadas, estabelecer as relações entre Programação Linear e Teoria Econômica, além de proporcionar oportunidades para o uso de pacotes computacionais de programação matemática para solução de problemas na área agroindustrial.   Entre as outras características que a obra apresenta, ressaltam-se a utilização de técnicas de programação matemática (programação linear, inteira e não linear) em problemas do dia-a-dia do brasileiro, o potencial de aplicações/modelos a serem desenvolvidos em contextos agroindustriais, o tratamento bastante didático na apresentação das teorias pertinentes, os conceitos básicos de modelagem, estruturação de modelos lineares e não lineares e as soluções comentadas dos exercícios.   Livro-texto para as disciplinas Pesquisa Operacional, Programação Linear, Administração Rural, Administração de Projetos, Métodos Quantitativos e Otimização de Sistemas. Leitura complementar para as disciplinas Transporte e Logística, Formulação de Rações e Matemática aplicada dos cursos de Administração de Empresas, Agronomia e Engenharia.',
-    sold: false,
+    sold: true,
     whatsapp: '5599988560842', // Adicionado para manter consistência com o modelo, mas vazio
     images: ['images/id-15.jpg']
   },
