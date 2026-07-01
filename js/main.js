@@ -138,7 +138,7 @@ const books = [
     year: 2011,
     location: 'São Paulo',
     description: 'O que pode ser mais importante para a operação eficaz de nossas organizações, desde oficinas de conserto ate fábricas de automóveis, desde repartições públicas até governos de nações, que a criação de suas estruturas? Todavia, o que realmente conhecemos para esse planejamento? Ironicamente, conhecemos bastante, mas não na forma acessível para aquelas pessoas que devem levar a efeito projetos - administradores, gerentes. Empresários, diretores, presidentes e consultores. A vasta literatura sobre a estruturação de organização, quase sempre baseada em pesquisa empírica sistematizada, tem sido posta de lado por duas razões. A primeira é que na maioria, está contida em artigos e livros escritos em estilo acadêmico e destinados a pesquisadores. Os administradores desejosos de utilizar o que neles é explanado acham que a orientação de tais escritores é mais para verificar o que existe em lugar de mostrar o que deveria ser, ou, em outras palavras, expor o que ocorre nas organizações em lugar de propor como planejar uma estrutura eficaz. A segunda é que, apesar da amplitude da literatura e de seus muitos enfoques, o que falta é uma síntese. Como o administrador não consegue achar tais enfoques em um só lugar, virtualmente tem que percorrer toda a extensão da literatura para descobrir o que existe de útil para ele. Além disso, as contradições sobressaem nos resultados das pesquisas, com pouca ou nenhuma tentativa de reconciliação. Por isso tudo, quem tiver paciência para percorrer toda essa literatura sai dela ainda mais confuso. Este livro propõe responder a essas duas questões. Para isso, sintetiza as propostas destinadas à realização prática do planejamento de estruturas organizacionais, não como uma panacéia válida para tudo, mas como projetos a serem adequados a cada uma das cinco configurações puras em que ele classifica as organizações, bem como a cada tipo intermediário existente.',
-    sold: true,
+    sold: false,
     whatsapp: '5599988560842', // Adicionado para manter consistência com o modelo, mas vazio
     images: ['images/id-7.jpg']
   },
@@ -226,7 +226,7 @@ const books = [
     id: 12,
     title: 'Logística reversa e sustentabilidade',
     author: 'André Luiz Pereira et at.',
-    category: 'Engenharia Ambiental',
+    category: 'Logística',
     price: 20,
     originalPrice: 108,
     discount: 81,
@@ -418,7 +418,7 @@ const books = [
     year: 2005,
     location: 'São Paulo',
     description: 'Esta obra foi amplamente aceita desde a sua publicação inicial, tendo sido adotada como livro-texto em muitos cursos universitários de graduação e pós-graduação. Para esta nova edição, o autor fez revisão e atualização completas do seu conteúdo. O livro é destinado aos estudantes que tomam primeiro contato com a ergonomia, não se exigindo conhecimentos anteriores em outras ciências como a anatomia, fisiologia, psicologia ou estatística. Como o próprio título indica, pode ser útil aos profissionais de projeto, como os engenheiros, arquitetos e designers. Além disso, apresenta conhecimentos valiosos para aqueles que planejam e gerenciam recursos humanos no trabalho.',
-    sold: false,
+    sold: true,
     whatsapp: '5599988560842', // Adicionado para manter consistência com o modelo, mas vazio
     images: ['images/id-21.jpg']
   },
@@ -466,7 +466,7 @@ const books = [
     id: 24,
     title: 'Manufatura Enxuta Como Estratégia De Produção: A Chave Para A Produtividade Industrial',
     author: 'Dalvio Ferrari Tubino',
-    category: 'Gestão da Produção',
+    category: 'Manufatura Enxuta (Lean)',
     price: 50,
     originalPrice: 233,
     discount: 78,
